@@ -1,0 +1,10 @@
+data/
+.venv/
+mlflow.db
+mlruns/
+mlartifacts/
+reports/
+tests/
+.git/
+artifacts/*.pkl
+artifacts/val_reports/
