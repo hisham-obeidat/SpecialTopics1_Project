@@ -1,0 +1,18 @@
+label: severity
+id: cve_id
+time: published_at        # used for the time split and for v0's order
+
+features:
+  text: [description]
+  categorical: [assigner, assigner_group, vendor, product, cwe_ids]
+  numeric: [n_affected, n_references]
+
+not_features:
+  published_day: "Same information as published_at, which is already the time column"
+  cvss_score: "Part of the label: severity is computed from it, so it leaks the answer"
+  cvss_vector: "Part of the label: the score is computed from it, so it leaks the answer"
+  score_source: "Only exists after the CVE is scored, not known at publication"
+  scored_at: "Only exists after the CVE is scored, not known at publication"
+  updated_at: "Changes after publication (often when the score is added), so it leaks future information"
+
+groups: [assigner_group]  # results are reported for each group
