@@ -1,1 +1,15 @@
+data/
+*.db
+mlruns/
+mlartifacts/
+models/
 artifacts/
+*.pkl
+*.joblib
+dist/
+build/
+*.egg-info/
+__pycache__/
+.venv/
+.env
+.pytest_cache/
