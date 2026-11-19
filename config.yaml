@@ -21,7 +21,7 @@ model:
   name: cve-triage         # MLflow registered model name
   type: logistic_regression
   params:
-    C: 1.0
+    C: 0.3
     max_iter: 2000
     class_weight: balanced
   tfidf:
