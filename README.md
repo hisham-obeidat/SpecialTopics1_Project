@@ -8,9 +8,9 @@
 
 # \## Team
 
-# \- Name 1 (GitHub: ...)
+# \- Hamzeh abujumaa
 
-# \- Name 2 (GitHub: ...)
+# \- Hisham obiedat
 
 # \- Name 3 (GitHub: ...)
 
