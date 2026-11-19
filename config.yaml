@@ -1,0 +1,39 @@
+capacity:
+  k_per_day: 40
+
+targets:                   # temporary values; we set the final ones in Task 12 from validation results
+  critical_capture_at_k:
+    overall: 0.70
+    min_per_assigner_group: 0.60
+  hc_capture_at_k:
+    overall: 0.35
+  beat_v0_by: 0.10         # absolute difference in overall Critical-capture@K
+
+data:
+  history: data/cves_history.csv
+  day_sample: data/day_sample.csv
+
+split:
+  test_months: 2
+  validation_months: 2
+
+model:
+  name: cve-triage         # MLflow registered model name
+  type: logistic_regression
+  params:
+    C: 1.0
+    max_iter: 2000
+    class_weight: balanced
+  tfidf:
+    max_features: 50000
+    ngram_range: [1, 2]
+    min_df: 3
+  random_state: 42
+
+mlflow:
+  tracking_uri: sqlite:///mlflow.db
+  experiment: cve-triage
+
+paths:
+  artifacts: artifacts      # intermediate files written by each pipeline step
+  reports: reports
