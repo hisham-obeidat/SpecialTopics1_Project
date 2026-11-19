@@ -1,0 +1,40 @@
+{
+  "k_per_day": 40,
+  "n_test_cves": 6726,
+  "n_test_days": 61,
+  "n_days_with_k_or_fewer": 16,
+  "n_test_duplicates_removed": 49,
+  "critical_recall": 0.7030965391621129,
+  "model": {
+    "critical_capture_at_k": {
+      "overall": 0.7468123861566485,
+      "by_assigner_group": {
+        "other": 0.7687861271676301,
+        "top10": 0.7367021276595744
+      }
+    },
+    "hc_capture_at_k": {
+      "overall": 0.412258064516129,
+      "by_assigner_group": {
+        "other": 0.42749731471535984,
+        "top10": 0.4057169202397418
+      }
+    }
+  },
+  "v0": {
+    "critical_capture_at_k": {
+      "overall": 0.41894353369763204,
+      "by_assigner_group": {
+        "other": 0.1329479768786127,
+        "top10": 0.550531914893617
+      }
+    },
+    "hc_capture_at_k": {
+      "overall": 0.30870967741935484,
+      "by_assigner_group": {
+        "other": 0.12030075187969924,
+        "top10": 0.3895804518211157
+      }
+    }
+  }
+}
