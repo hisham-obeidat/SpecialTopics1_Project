@@ -12,8 +12,6 @@
 
 # \- Hisham obiedat
 
-# \- Name 3 (GitHub: ...)
-
 # 
 
 # \## Docker image
