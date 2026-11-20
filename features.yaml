@@ -1,6 +1,6 @@
 label: severity
 id: cve_id
-time: published_at        # used for the time split and for v0's order
+time: published_at        
 
 features:
   text: [description]
@@ -15,4 +15,4 @@ not_features:
   scored_at: "Only exists after the CVE is scored, not known at publication"
   updated_at: "Changes after publication (often when the score is added), so it leaks future information"
 
-groups: [assigner_group]  # results are reported for each group
+groups: [assigner_group]  
