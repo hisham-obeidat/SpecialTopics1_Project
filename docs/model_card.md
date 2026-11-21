@@ -32,15 +32,15 @@
 
 |---|---|---|
 
-| Critical-capture@K, overall | 0.419 | 0.767 |
+| Critical-capture@K, overall | 0.419 | 0.750 |
 
-| Critical-capture@K, top10 publishers | 0.551 | 0.771 |
+| Critical-capture@K, top10 publishers | 0.551 | 0.745 |
 
-| Critical-capture@K, other publishers | 0.133 | 0.757 |
+| Critical-capture@K, other publishers | 0.133 | 0.763 |
 
-| HC-capture@K, overall | 0.309 | 0.416 |
+| HC-capture@K, overall | 0.309 | 0.413 |
 
-| Recall of the Critical class | | 0.665 |
+| Recall of the Critical class | | 0.645 |
 
 
 

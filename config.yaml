@@ -21,7 +21,7 @@ model:
   name: cve-triage        
   type: logistic_regression
   params:
-    C: 0.3
+    C: 1.0
     max_iter: 2000
     class_weight: balanced
   tfidf:

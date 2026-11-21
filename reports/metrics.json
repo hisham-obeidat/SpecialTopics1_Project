@@ -4,20 +4,20 @@
   "n_test_days": 61,
   "n_days_with_k_or_fewer": 16,
   "n_test_duplicates_removed": 49,
-  "critical_recall": 0.7030965391621129,
+  "critical_recall": 0.644808743169399,
   "model": {
     "critical_capture_at_k": {
-      "overall": 0.7468123861566485,
+      "overall": 0.7504553734061931,
       "by_assigner_group": {
-        "other": 0.7687861271676301,
-        "top10": 0.7367021276595744
+        "other": 0.7630057803468208,
+        "top10": 0.7446808510638298
       }
     },
     "hc_capture_at_k": {
-      "overall": 0.412258064516129,
+      "overall": 0.41258064516129034,
       "by_assigner_group": {
-        "other": 0.42749731471535984,
-        "top10": 0.4057169202397418
+        "other": 0.4221267454350161,
+        "top10": 0.40848317196864914
       }
     }
   },
