@@ -1,13 +1,13 @@
 capacity:
   k_per_day: 40
 
-targets:                   # temporary values; we set the final ones in Task 12 from validation results
+targets:                   
   critical_capture_at_k:
     overall: 0.70
     min_per_assigner_group: 0.60
   hc_capture_at_k:
     overall: 0.35
-  beat_v0_by: 0.10         # absolute difference in overall Critical-capture@K
+  beat_v0_by: 0.10         
 
 data:
   history: data/cves_history.csv
@@ -18,7 +18,7 @@ split:
   validation_months: 2
 
 model:
-  name: cve-triage         # MLflow registered model name
+  name: cve-triage        
   type: logistic_regression
   params:
     C: 0.3
@@ -35,5 +35,5 @@ mlflow:
   experiment: cve-triage
 
 paths:
-  artifacts: artifacts      # intermediate files written by each pipeline step
+  artifacts: artifacts      
   reports: reports
